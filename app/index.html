@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>last project</title>
+
+    <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+
+    <!-- Font Awesome -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <!-- BootStrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
+    <!-- Style file -->
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+
+  <body>
+    <!-- Body Start -->
+    <div class="my-fluid-container">
+      <!-- Welcome -->
+      <div class="row">
+        <div class="col-lg-12 full-width header" id="header">
+          <!-- <img src="./images/hero-front.png" alt="" /> -->
+          <h1 id="title">Welcome</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <!-- NavBar Botton -->
+      <div id="wrapper">
+        <div class="circle icon">
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </div>
+      </div>
+      <!-- NavBar -->
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-inverse navbar-fixed-top">
+            <ul class="nav navbar-nav">
+              <li><a href="#header" class="page-scroll">Home</a></li>
+              <li><a href="#content" class="page-scroll">Projects</a></li>
+              <li>
+                <a href="#connect" class="page-scroll">Leave Us A Message</a>
+              </li>
+              <li><a href="#comments" class="page-scroll">Comments</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Projetcs -->
+      <div class="row content" id="content">
+        <h1 id="titleP">Projects</h1>
+      </div>
+
+      <hr />
+
+      <!-- Connect US -->
+      <div class="row connect" id="connect">
+        <h1 id="titleP">Leave Us A Message</h1>
+        <form id="comment_form">
+          <input type="text" placeholder="Name" id="name" required />
+          <input type="text" placeholder="Email" id="email" required />
+          <div class="radio">
+            <input id="value3" type="radio" name="radio2" value="1" checked />
+            <label for="value3">Issue</label>
+          </div>
+          <div class="radio">
+            <input id="value4" type="radio" name="radio2" value="2" />
+            <label for="value4">Suggestion</label>
+          </div>
+          <div class="radio">
+            <input id="value5" type="radio" name="radio2" value="3" />
+            <label for="value5">Complaint</label>
+          </div>
+          <textarea
+            placeholder="Your Message"
+            id="comment"
+            maxlength="250"
+          ></textarea>
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+
+      <!-- Comments -->
+      <div class="row">
+        <h1 id="titleP">Comments</h1>
+        <div class="row" id="comments"></div>
+      </div>
+
+      <!-- Media -->
+      <div class="media">
+        <ul>
+          <li>
+            <a href="https://twitter.com/HussamDehaithem">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://github.com/SamDe4574">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Footer -->
+      <hr />
+      <div class="footer">
+        <p>Hussam Dehathim</p>
+      </div>
+    </div>
+    <!-- Body  End -->
+
+    <!-- BootStrap JS & Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- baffle javascript library -->
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+
+    <!-- jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+
+    <script
+      src="scripts/main.js"
+      type="text/javascript"
+      charset="utf-8"
+      async
+      defer
+    ></script>
+
+    <script
+      src="scripts/firebase.js"
+      type="text/javascript"
+      charset="utf-8"
+      async
+      defer
+    ></script>
+  </body>
+</html>
