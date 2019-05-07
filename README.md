@@ -11,7 +11,7 @@ This is the final project for JavaScript Course At GA (General Assembly) & Misk
 - Install The npm package by wrting the code ```$npm i```
 - then type the code ```$npm start```
   OR
-- Open the /app/index.html file in the browser
+- Open the ```/app/index.html``` file in the browser
   OR
 - you can go directly to this link : <a href="https://hussam-de.firebaseapp.com/app/">HERE</a>
 
