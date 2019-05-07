@@ -2,13 +2,14 @@
 
 ### Overview
 
-This is the finale project for JavaScript Course At GA (General Assembly) & Misk
+This is the final project for JavaScript Course At GA (General Assembly) & Misk
+
 
 ### How to install :
 
-- Open the Treminal And cd into the project
-- Install The npm package by wrting the code \$npm i
-- then type the code \$npm start
+- Open the Terminal And go to the project folder
+- Install The npm package by wrting the code ```$npm i```
+- then type the code ```$npm start```
   OR
 - Open the /app/index.html file in the browser
   OR
